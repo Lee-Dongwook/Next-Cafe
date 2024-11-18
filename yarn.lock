@@ -959,6 +959,7 @@ __metadata:
     "@types/react-dom": "npm:^18"
     eslint: "npm:^8"
     eslint-config-next: "npm:14.2.16"
+    kakao-custom-map: "npm:*"
     next: "npm:14.2.16"
     postcss: "npm:^8"
     react: "npm:^18"
@@ -2878,6 +2879,14 @@ __metadata:
   checksum: 10c0/a32679e9cb55469cb6d8bbc863f7d631b2c98b7fc7bf172629261751a6e7bc8da6ae374ddb74d5fbd8b06cf0eb4572287b259813d92b36e384024ed35e4c13e1
   languageName: node
   linkType: hard
+
+"kakao-custom-map@npm:*, kakao-custom-map@workspace:shared/kakao":
+  version: 0.0.0-use.local
+  resolution: "kakao-custom-map@workspace:shared/kakao"
+  dependencies:
+    typescript: "npm:^5.6.3"
+  languageName: unknown
+  linkType: soft
 
 "keyv@npm:^4.5.3, keyv@npm:^4.5.4":
   version: 4.5.4
