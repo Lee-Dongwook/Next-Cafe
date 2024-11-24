@@ -14,6 +14,9 @@
             "prettier --write"
         ]
     },
+    "scripts": {
+        "client:dev": "yarn workspace cafe dev"
+    },
     "packageManager": "yarn@4.5.1",
     "devDependencies": {
         "@types/eslint": "^9.6.1",
